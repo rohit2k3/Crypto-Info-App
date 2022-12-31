@@ -1,0 +1,34 @@
+.home {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c1d36;
+}
+
+.home > img {
+    animation: home2img infinite 0.7s linear alternate;
+}
+
+
+
+/* media queries */
+
+@media screen and (max-width:768px){
+    .home > img{
+        width: 80%;
+    }
+}
+@media screen and (max-width:425px){
+    .detail-box{
+        width: 90%;
+    }
+}
+
+
+
+@keyframes home2img {
+    to {
+        transform: translateY(-10px);
+    }
+}

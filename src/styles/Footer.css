@@ -1,0 +1,61 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.left {
+    padding: 5vh;
+}
+
+.apps {
+    padding: 2vh;
+    background-color: white;
+    border-radius: 1rem;
+    color: black;
+    margin: 2vh;
+    text-align: center;
+    align-self: center;
+    transition: all 0.5s;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.apps:hover{
+    background-color: black;
+    color: white;
+}
+.apps svg {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.apps label {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}
+.center > img {
+   width: 100%;
+}
+.center > h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.right{
+    padding: 5vh;
+}
+
+
+.right p {
+    font-size: 1rem;
+    margin: 1vh;
+    cursor: pointer;
+}

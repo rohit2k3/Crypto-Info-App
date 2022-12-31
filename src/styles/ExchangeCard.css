@@ -1,0 +1,35 @@
+.click-url{
+    text-decoration: none;
+}
+.card-exchange{
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    height: 25vh;
+    width: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    transition: transform 0.2s;
+    margin: 1rem;
+    border-radius: 5px;
+    
+}
+.card-exchange:hover{
+    transform: scale(1.1);
+}
+.card-image{
+    height: 10vh;
+}
+.card-name{
+    color: black;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+ .card-rank{
+    color: gray;
+    letter-spacing: 2px;
+ }
